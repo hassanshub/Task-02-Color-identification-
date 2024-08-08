@@ -7,3 +7,5 @@ First, the image is preprocessed to ensure accurate color analysis. This involve
 Next, K-means clustering is applied to the flattened pixel data. This unsupervised learning algorithm clusters the pixels into a specified number of color groups, known as num_clusters. The algorithm identifies the central color of each cluster, which represents a dominant color in the image. This approach allows for identifying multiple prominent colors rather than just a single dominant hue.
 
 Finally, the identified colors and their frequencies are visualized using a pie chart. This chart illustrates the proportion of each color within the image, providing an intuitive way to understand the color distribution. Each slice of the pie represents a different color, with the size of the slice corresponding to the frequency of that color.
+
+https://towardsdatascience.com/color-identification-in-images-machine-learning-application-b26e770c4c71
